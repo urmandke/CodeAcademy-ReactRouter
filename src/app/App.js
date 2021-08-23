@@ -40,6 +40,11 @@ function App() {
           <Route path="/sign-up">
             <SignUp />
           </Route>
+
+          <Route path="/profile">
+            <Profile />
+          </Route>
+
         </Switch>
       </main>
       <Footer />
